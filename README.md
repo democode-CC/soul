@@ -1,6 +1,6 @@
 
 
-Welcome to the code repository for our research paper, Targeted Therapy in Data Removal: Object Unlearning Based on Scene Graphs.
+Welcome to the code repository for our research paper, ***Targeted Therapy in Data Removal: Object Unlearning Based on Scene Graphs***.
 
 
 
