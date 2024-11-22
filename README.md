@@ -11,14 +11,14 @@ We have tested it on Ubuntu 22.04.4 LTS with Python 3.7.4 and PyTorch 1.3.1+cu11
 ### Setup code
 You can setup a conda environment to run the code like this:
 
-```bash
-# create a conda environment and install the requirments
-conda create --name ousg python=3.7 --file requirements.txt 
-conda activate ousg        # activate virtual environment
-# install pytorch and cuda version as tested in our work
-conda install pytorch==1.3.1 torchvision==0.4.0 cudatoolkit=11.7 -c pytorch
-# more installations
-pip install opencv-python tensorboardx grave addict
+```
+create a conda environment and install the requirments
+```conda create --name ousg python=3.7 --file requirements.txt 
+conda activate ousg        # activate virtual environment ```
+install pytorch and cuda version as tested in our work
+```conda install pytorch==1.3.1 torchvision==0.4.0 cudatoolkit=11.7 -c pytorch```
+more installations
+```pip install opencv-python tensorboardx grave addict```
 
 
 ### Setup Visual Genome data
