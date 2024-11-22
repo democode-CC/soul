@@ -12,17 +12,17 @@ We have tested it on Ubuntu 22.04.4 LTS with Python 3.7.4 and PyTorch 1.3.1+cu11
 You can setup a conda environment to run the code like this:
 
 
-create a conda environment and install the requirments
+Create a conda environment and install the requirments
 
 ```conda create --name ousg python=3.7 --file requirements.txt ```
 
 ```conda activate ousg        # activate virtual environment ```
 
-install pytorch and cuda version as tested in our work
+Install pytorch and cuda version as tested in our work
 
 ```conda install pytorch==1.3.1 torchvision==0.4.0 cudatoolkit=11.7 -c pytorch```
 
-more installations
+More installations
 
 ```pip install opencv-python tensorboardx grave addict```
 
@@ -32,14 +32,14 @@ more installations
 
 Download and unpack the relevant parts of the Visual Genome dataset:
 
-```bash
+```
 bash scripts/download_vg.sh
 ```
 
 
 Preprocess data:
 
-```bash
+```
 python scripts/preprocess_vg.py
 ```
 
