@@ -70,5 +70,5 @@ Please set the checkpoint path (in command-line arguments) in `unlearn_finetune_
 
 ## Acknoledgement
 
-The data preprocessing and SG2I components are based on the <a href="https://github.com/he-dhamo/simsg"> sg2im repository. For detailed information about scene graph data processing, the SG2I model, and its underlying principles, please refer to this repository.  </a>. 
+The data preprocessing and SG2I components are based on the <a href="https://github.com/he-dhamo/simsg"> sg2im repository. For detailed information about scene graph data processing, the SG2I model, and its underlying principles, please refer to this repository. 
 
